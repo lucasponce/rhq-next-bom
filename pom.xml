@@ -171,6 +171,9 @@
                     <version>${plugin.version.org.apache.maven.plugins-maven-jar-plugin}</version>
                     <configuration>
                         <archive>
+                            <manifest>
+                                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                            </manifest>
                             <compress>true</compress>
                         </archive>
                     </configuration>
