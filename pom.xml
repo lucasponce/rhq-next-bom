@@ -112,8 +112,6 @@
         <version.com.google.code.gson>2.2.4</version.com.google.code.gson>
         <version.gnu.getopt>1.0.13</version.gnu.getopt>
         <version.org.apache.activemq>5.10.0</version.org.apache.activemq>
-        <version.org.apache.xbean>3.16</version.org.apache.xbean> <!-- needed in the wf-extension module assembly -->
-        <version.org.springframework>2.5.5</version.org.springframework>
         <version.org.testng>6.5.2</version.org.testng>
         <version.org.wildfly>8.1.0.Final</version.org.wildfly>
 

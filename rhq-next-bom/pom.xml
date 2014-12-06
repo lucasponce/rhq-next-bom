@@ -36,32 +36,20 @@
                 <version>${version.gnu.getopt}</version>
             </dependency>
 
-            <!-- core ActiveMQ -->
+            <!-- ActiveMQ BOM -->
             <dependency>
                 <groupId>org.apache.activemq</groupId>
-                <artifactId>activemq-all</artifactId>
+                <artifactId>activemq-parent</artifactId>
                 <version>${version.org.apache.activemq}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 
-            <!-- Spring is needed by ActiveMQ Broker to load its .xml config file -->
             <dependency>
                 <groupId>org.apache.activemq</groupId>
-                <artifactId>activemq-spring</artifactId>
+                <artifactId>activemq-rar</artifactId>
                 <version>${version.org.apache.activemq}</version>
-            </dependency>
-
-            <!-- this is used to copy this dep jar to the wf-extension module -->
-            <dependency>
-                <groupId>org.apache.xbean</groupId>
-                <artifactId>xbean-spring</artifactId>
-                <version>${version.org.apache.xbean}</version>
-            </dependency>
-
-            <!-- Spring is needed by ActiveMQ Broker to load its .xml config file -->
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring</artifactId>
-                <version>${version.org.springframework}</version>
+                <type>rar</type>
             </dependency>
 
             <dependency>
