@@ -68,6 +68,7 @@
                 <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-dist</artifactId>
                 <version>${version.org.wildfly}</version>
+                <type>zip</type>
             </dependency>
 
             <dependency>
