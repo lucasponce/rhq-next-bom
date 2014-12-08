@@ -31,6 +31,12 @@
             </dependency>
 
             <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${version.com.google.guava}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>gnu.getopt</groupId>
                 <artifactId>java-getopt</artifactId>
                 <version>${version.gnu.getopt}</version>
