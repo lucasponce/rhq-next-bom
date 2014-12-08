@@ -62,14 +62,18 @@
                 <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-controller</artifactId>
                 <version>${version.org.wildfly}</version>
-                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.wildfly</groupId>
+                <artifactId>wildfly-dist</artifactId>
+                <version>${version.org.wildfly}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-server</artifactId>
                 <version>${version.org.wildfly}</version>
-                <scope>provided</scope>
             </dependency>
 
             <dependency>
